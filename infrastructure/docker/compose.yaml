@@ -1,0 +1,25 @@
+services:
+  inference:
+    image: ${VLLM_IMAGE:?Set a validated vLLM image tag}
+    container_name: gpu-inference
+    ports:
+      - "127.0.0.1:8000:8000"
+    gpus: all
+    shm_size: "4gb"
+    volumes:
+      - model-cache:/root/.cache/huggingface
+    command:
+      - --model
+      - Qwen/Qwen2.5-7B-Instruct
+      - --dtype
+      - bfloat16
+      - --max-model-len
+      - "4096"
+      - --gpu-memory-utilization
+      - "0.90"
+      - --tensor-parallel-size
+      - "1"
+    restart: unless-stopped
+
+volumes:
+  model-cache:
