@@ -1,0 +1,26 @@
+{
+  "currency": "USD",
+  "billing_models": {
+    "on-demand": {
+      "interruption_risk": false,
+      "idle_cost_applies": true
+    },
+    "spot": {
+      "interruption_risk": true,
+      "idle_cost_applies": true
+    },
+    "serverless": {
+      "cold_start_possible": true,
+      "billing_policy": "provider_specific"
+    }
+  },
+  "analysis": {
+    "hours_per_day": 24,
+    "hours_per_month": 730,
+    "utilization_levels": [0.25, 0.50, 0.75, 1.0],
+    "overhead_scenarios": [0.0, 0.10, 0.20],
+    "tokens_per_cost_unit": 1000000
+  },
+  "exclude_pending_prices": true,
+  "exclude_unverified_prices_from_rankings": true
+}
