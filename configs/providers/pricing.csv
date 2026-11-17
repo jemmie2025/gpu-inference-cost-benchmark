@@ -1,13 +1,13 @@
 provider,instance,gpu,gpu_count,region,billing,usd_per_hour,price_status,cost_scope
 AWS,g6.xlarge,L4,1,us-east-1,on-demand,0.8048,secondary_source,instance
 AWS,g6.xlarge,L4,1,us-east-1,spot,0.3977,secondary_source,instance
-GCP,g2-standard-12,L4,1,pending,spot,,pending,instance
-GCP,g2-standard-12,L4,1,pending,on-demand,,pending,instance
+GCP,g2-standard-12,L4,1,us-central1,spot,0.598648,published,instance
+GCP,g2-standard-12,L4,1,us-central1,on-demand,1.000416348,published,instance
 Lambda,A100-PCIe,A100,1,unspecified,on-demand,1.99,published,instance
 Lambda,H100-PCIe,H100,1,unspecified,on-demand,3.79,published,instance
 RunPod,L40S,L40S,1,unspecified,on-demand,1.09,published,instance
 RunPod,L4,L4,1,unspecified,on-demand,0.69,published,instance
-RunPod,48GB-PRO,L40S,1,unspecified,serverless,,pending,worker
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker
 Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only
 Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance
 Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance

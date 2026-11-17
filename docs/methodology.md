@@ -32,10 +32,10 @@ Generated tokens
 
 ## Validation
 
-- 21 automated tests.
-- 216 dedicated GPU cost scenarios.
-- 108 serverless cost scenarios.
-- 16 utilization sensitivity scenarios.
+- 22 automated tests.
+- 288 dedicated GPU cost scenarios.
+- 144 serverless cost scenarios.
+- 24 utilization sensitivity scenarios.
 - Docker and Kubernetes configuration checks.
 
 ## Limitations

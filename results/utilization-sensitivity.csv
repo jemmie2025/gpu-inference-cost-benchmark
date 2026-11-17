@@ -1,4 +1,12 @@
 provider,instance,gpu,billing,measurement_type,assumed_throughput,utilization,hourly_cost_usd,cost_per_million_output_tokens,monthly_cost_usd
+GCP,g2-standard-12,L4,spot,modeled,100,0.25,0.598648,6.651644,437.01
+GCP,g2-standard-12,L4,on-demand,modeled,100,0.25,1.000416,11.115737,730.3
+GCP,g2-standard-12,L4,spot,modeled,100,0.5,0.598648,3.325822,437.01
+GCP,g2-standard-12,L4,on-demand,modeled,100,0.5,1.000416,5.557869,730.3
+GCP,g2-standard-12,L4,spot,modeled,100,0.75,0.598648,2.217215,437.01
+GCP,g2-standard-12,L4,on-demand,modeled,100,0.75,1.000416,3.705246,730.3
+GCP,g2-standard-12,L4,spot,modeled,100,1.0,0.598648,1.662911,437.01
+GCP,g2-standard-12,L4,on-demand,modeled,100,1.0,1.000416,2.778934,730.3
 Lambda,A100-PCIe,A100,on-demand,modeled,100,0.25,1.99,22.111111,1452.7
 Lambda,A100-PCIe,A100,on-demand,modeled,100,0.5,1.99,11.055556,1452.7
 Lambda,A100-PCIe,A100,on-demand,modeled,100,0.75,1.99,7.37037,1452.7

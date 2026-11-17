@@ -6,7 +6,9 @@ Modeled workload: 100 output tokens/sec, 50% utilization, excluding additional o
 
 | Provider | GPU | USD/hour | USD/M tokens | Monthly USD |
 |---|---|---:|---:|---:|
+| GCP | L4 | 0.60 | 3.33 | 437.01 |
 | RunPod | L4 | 0.69 | 3.83 | 503.70 |
+| GCP | L4 | 1.00 | 5.56 | 730.30 |
 | RunPod | L40S | 1.09 | 6.06 | 795.70 |
 | Lambda | A100 | 1.99 | 11.06 | 1452.70 |
 | Lambda | H100 | 3.79 | 21.06 | 2766.70 |

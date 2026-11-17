@@ -56,10 +56,10 @@ separately to ensure accuracy and reproducibility.
 
 | Validation | Result |
 |---|---:|
-| Automated Tests | 21 passed |
-| Dedicated GPU Scenarios | 216 |
-| Serverless Scenarios | 108 |
-| Utilization Scenarios | 16 |
+| Automated Tests | 22 passed |
+| Dedicated GPU Scenarios | 288 |
+| Serverless Scenarios | 144 |
+| Utilization Scenarios | 24 |
 | Live GPU Benchmark | Pending |
 
 ## Reproduce
