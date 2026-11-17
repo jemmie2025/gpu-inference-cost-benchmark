@@ -46,7 +46,7 @@ def main():
 
     with output.open("w", newline="") as f:
         writer = csv.DictWriter(
-            f, fieldnames=results[0].keys()
+            f, fieldnames=results[0].keys(), lineterminator="\n"
         )
         writer.writeheader()
         writer.writerows(results)
