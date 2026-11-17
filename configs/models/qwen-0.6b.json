@@ -1,0 +1,14 @@
+{
+  "model_id": "Qwen/Qwen3-0.6B",
+  "parameters_billions": 0.6,
+  "engine": "vllm",
+  "dtype": "bfloat16",
+  "weight_precision_bits": 16,
+  "quantization": null,
+  "tensor_parallel_size": 1,
+  "max_model_len": 4096,
+  "gpu_memory_utilization": 0.9,
+  "trust_remote_code": false,
+  "source": "https://huggingface.co/Qwen/Qwen3-0.6B",
+  "runtime_validation": "pending"
+}

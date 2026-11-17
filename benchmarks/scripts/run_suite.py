@@ -8,17 +8,21 @@ from gpu_monitor import collect_gpu_metrics
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--url", default="http://localhost:8000")
+parser.add_argument(
+    "--model-config",
+    default="configs/models/qwen-7b.json"
+)
 args = parser.parse_args()
 
 model = json.loads(
-    Path("configs/models/qwen-7b.json").read_text()
+    Path(args.model_config).read_text()
 )
 
 workload = json.loads(
     Path("configs/workloads/baseline.json").read_text()
 )
 
-output = Path("benchmarks/raw")
+output = Path("benchmarks/raw") / Path(args.model_config).stem
 output.mkdir(parents=True, exist_ok=True)
 
 prompt = "Explain GPU inference optimization in detail."

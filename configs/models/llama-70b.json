@@ -3,9 +3,12 @@
   "parameters_billions": 70,
   "engine": "vllm",
   "dtype": "bfloat16",
+  "weight_precision_bits": 16,
+  "quantization": null,
   "tensor_parallel_size": 4,
   "max_model_len": 4096,
-  "gpu_memory_utilization": 0.90,
-  "quantization": null,
-  "trust_remote_code": false
+  "gpu_memory_utilization": 0.9,
+  "trust_remote_code": false,
+  "source": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+  "runtime_validation": "pending"
 }

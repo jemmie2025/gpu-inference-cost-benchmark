@@ -19,5 +19,7 @@ analyze:
 > $(PYTHON) -m src.sensitivity
 > $(PYTHON) -m src.visualize
 > $(PYTHON) -m src.report
+> $(PYTHON) -m src.model_compatibility
+> $(PYTHON) -m src.model_cost
 
 check: validate test analyze

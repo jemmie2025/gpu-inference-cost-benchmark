@@ -1,0 +1,14 @@
+{
+  "model_id": "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+  "parameters_billions": 8,
+  "engine": "vllm",
+  "dtype": "float16",
+  "weight_precision_bits": 4,
+  "quantization": "awq",
+  "tensor_parallel_size": 1,
+  "max_model_len": 4096,
+  "gpu_memory_utilization": 0.9,
+  "trust_remote_code": false,
+  "source": "https://huggingface.co/hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+  "runtime_validation": "pending"
+}

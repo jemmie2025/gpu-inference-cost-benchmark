@@ -56,7 +56,7 @@ separately to ensure accuracy and reproducibility.
 
 | Validation | Result |
 |---|---:|
-| Automated Tests | 22 passed |
+| Automated Tests | 30 passed |
 | Dedicated GPU Scenarios | 288 |
 | Serverless Scenarios | 144 |
 | Utilization Scenarios | 24 |
@@ -74,3 +74,22 @@ Run `make install` followed by `make check`.
 - [Utilization Analysis](results/utilization-sensitivity.csv)
 
 ![GPU Cost Analysis](results/utilization-analysis.png)
+
+
+## Multi-Model Analysis
+
+Five LLM configurations covering 0.6B to 70B parameters,
+BF16 and AWQ INT4 precision, GPU memory sizing and
+tensor parallelism.
+
+| Metric | Result |
+|---|---:|
+| Model Configurations | 5 |
+| GPU Profiles | 5 |
+| Model-GPU Assessments | 25 |
+| Model Cost Scenarios | 252 |
+| Total Cost Scenarios | 684 |
+
+- [Model Deployment](docs/model-deployment.md)
+- [GPU Compatibility](results/model-compatibility.csv)
+- [Model Cost Comparison](results/model-cost-comparison.csv)
