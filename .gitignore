@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.coverage
+*.pem
+*.key
+*.log
+.terraform/
+*.tfstate*
+.DS_Store
+.vscode/
