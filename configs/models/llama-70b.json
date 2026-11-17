@@ -1,0 +1,11 @@
+{
+  "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+  "parameters_billions": 70,
+  "engine": "vllm",
+  "dtype": "bfloat16",
+  "tensor_parallel_size": 4,
+  "max_model_len": 4096,
+  "gpu_memory_utilization": 0.90,
+  "quantization": null,
+  "trust_remote_code": false
+}

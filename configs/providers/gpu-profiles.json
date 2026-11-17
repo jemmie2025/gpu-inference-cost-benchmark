@@ -1,0 +1,29 @@
+{
+  "gpus": [
+    {
+      "name": "NVIDIA L4",
+      "architecture": "Ada Lovelace",
+      "vram_gb": 24
+    },
+    {
+      "name": "NVIDIA L40S",
+      "architecture": "Ada Lovelace",
+      "vram_gb": 48
+    },
+    {
+      "name": "NVIDIA A100",
+      "architecture": "Ampere",
+      "vram_gb": 40
+    },
+    {
+      "name": "NVIDIA A100 80GB",
+      "architecture": "Ampere",
+      "vram_gb": 80
+    },
+    {
+      "name": "NVIDIA H100",
+      "architecture": "Hopper",
+      "vram_gb": 80
+    }
+  ]
+}
