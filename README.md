@@ -4,47 +4,61 @@
 
 ## Overview
 
-A reproducible multi-cloud GPU inference cost model for
-evaluating token economics, GPU memory requirements,
-and infrastructure pricing across AWS, GCP, Lambda,
-RunPod, Modal, and Replicate.
+A reproducible multi-cloud GPU inference cost model
+for infrastructure pricing, token economics, GPU memory
+sizing, and deployment planning.
+
+Providers: AWS, GCP, Lambda, RunPod, Modal, and Replicate.
+
+No empirical GPU inference runs were performed.
 
 ## Architecture
 
-Pricing Sources + Performance Assumptions
-→ GPU Capacity Screening → Cost Modeling
-→ Sensitivity Analysis → Reports
+Pricing & Assumptions → GPU Memory Screening →
+Cost Modeling → Sensitivity Analysis → Reports
 
 ## Model Portfolio
 
 | Model | Precision | Configured GPUs |
 |---|---|---:|
 | Qwen3-0.6B | BF16 | 1 |
-| Qwen2.5-7B | BF16 | 1 |
-| Llama-3.1-8B | AWQ INT4 | 1 |
-| Qwen2.5-32B | AWQ INT4 | 1 |
-| Llama-3.3-70B | BF16 | 4 |
+| Qwen2.5-7B-Instruct | BF16 | 1 |
+| Llama-3.1-8B-Instruct | AWQ INT4 | 1 |
+| Qwen2.5-32B-Instruct | AWQ INT4 | 1 |
+| Llama-3.3-70B-Instruct | BF16 | 4 |
 
-GPU memory fit is estimated, not runtime-verified.
+Memory fit is estimated, not runtime-verified.
 
-## Pricing and Performance Assumptions
+## Pricing and Assumptions
 
-| Parameter | Assumption |
+| Parameter | Value |
 |---|---|
 | Pricing snapshot | 2026-11-17 |
 | Currency | USD |
 | Output throughput | 50, 100, 200 tokens/sec |
-| Throughput source | Author-defined synthetic scenarios |
-| Utilization | 25–100% |
+| Throughput source | Author-defined synthetic assumptions |
+| Workload utilization | 25–100% |
 | Infrastructure overhead | 0–20% |
 | Cold-start duration | 0–30 seconds |
 | Empirical latency | Unmeasured |
 
-Throughput assumptions are not hardware-calibrated.
-Cost estimates are conditional on pricing and assumed
-performance, with uncertainty in both inputs.
+Throughput assumptions are not vendor-reported,
+hardware-calibrated, or empirically measured.
 
-AWS secondary-source prices remain provisional.
+Pricing-derived CSVs include capture dates, source URLs,
+and verification status. AWS secondary-source rates
+remain provisional.
+
+## Cost Methodology
+
+USD/M output tokens = Effective hourly cost × 1,000,000 /
+(Assumed throughput × Utilization × 3600)
+
+Serverless scenarios incorporate assumed generation time,
+cold starts, and billable idle duration.
+
+Pricing and performance uncertainty propagate into
+the resulting cost estimates.
 
 ## Coverage
 
@@ -58,17 +72,23 @@ AWS secondary-source prices remain provisional.
 | Serverless cost scenarios | 144 |
 | Model-specific cost scenarios | 252 |
 | Total modeled cost scenarios | 684 |
+| Utilization sensitivity scenarios | 24 |
 | GPU memory assessments | 25 |
 | Performance assumption records | 75 |
 
+Scenario counts represent analytical coverage,
+not empirical validation.
+
 ## Code Validation
 
-41 automated tests passing locally.
+**41 automated tests passed locally.**
 
-Tests validate cost calculations, input handling,
-simulated HTTP integration, and metadata traceability.
-They do not establish empirical GPU performance or
-confirm the accuracy of market pricing.
+Tests cover cost calculations, input handling,
+simulated HTTP integration, memory estimation,
+pricing provenance, and assumption traceability.
+
+They validate software behavior within tested cases,
+not the accuracy of market prices or GPU performance.
 
 ## Cost Sensitivity
 
@@ -76,30 +96,31 @@ confirm the accuracy of market pricing.
 
 ## Reports
 
-| Report | Output |
+| Analysis | Output |
 |---|---|
 | Provider comparison | [Markdown](results/provider-comparison.md) |
+| Pricing dataset | [CSV](configs/providers/pricing.csv) |
 | Dedicated costs | [CSV](results/cost-comparison.csv) |
 | Serverless costs | [CSV](results/serverless-comparison.csv) |
+| Model-specific costs | [CSV](results/model-cost-comparison.csv) |
 | Utilization sensitivity | [CSV](results/utilization-sensitivity.csv) |
 | GPU memory assessments | [CSV](results/model-compatibility.csv) |
-| Model-specific costs | [CSV](results/model-cost-comparison.csv) |
 | Performance assumptions | [CSV](results/performance-assumptions.csv) |
 
 ## Infrastructure
 
 Docker Compose and Kubernetes configurations are
-defined and statically checked but not executed
-on GPU hardware.
+defined and statically checked, but not executed on GPUs.
 
-See [Reference Deployment](infrastructure/README.md).
+The vLLM measurement runner supports future empirical
+validation. See [Infrastructure](infrastructure/README.md).
 
 ## Reproduce
 
 Run `make install` followed by `make check`.
 
-Report regeneration uses the stored pricing snapshot
-and does not retrieve current market prices.
+No GPU resources are required for report generation.
+Regeneration does not refresh historical pricing.
 
 ## Documentation
 
@@ -110,9 +131,17 @@ and does not retrieve current market prices.
 [Model Deployment](docs/model-deployment.md) |
 [Decision Guide](docs/decision-guide.md)
 
+## Validation Evidence
+
+![Code Validation](evidence/screenshots/01-cost-model-validation.png)
+
 ## Limitations
 
-No empirical GPU inference runs were performed.
-Throughput, memory fit, and token costs are modeled.
-Production decisions require refreshed pricing,
-hardware-specific measurements, and runtime validation.
+- No measured GPU throughput or latency.
+- Memory fit and token costs are modeled estimates.
+- Provider pricing requires periodic revalidation.
+- Serverless billing is not fully provider-calibrated.
+- The 70B model is excluded from single-GPU cost scenarios.
+
+Results support preliminary capacity planning and
+cost analysis, not production cost guarantees.
