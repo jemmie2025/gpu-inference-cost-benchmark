@@ -6,6 +6,10 @@ from src.cost_engine import calculate_cost
 
 
 def main():
+    assumptions = json.loads(
+        Path("configs/workloads/performance-assumptions.json").read_text()
+    )["throughput"]
+
     billing = json.loads(
         Path("configs/providers/billing.json").read_text()
     )
@@ -25,7 +29,7 @@ def main():
 
         rate = float(provider["usd_per_hour"])
 
-        for throughput in [50, 100, 200]:
+        for throughput in assumptions['scenarios'].values():
             for utilization in billing["analysis"]["utilization_levels"]:
                 for overhead in billing["analysis"]["overhead_scenarios"]:
 
@@ -37,6 +41,9 @@ def main():
                         **provider,
                         "measurement_type": "modeled",
                         "assumed_throughput": throughput,
+                        "throughput_source": assumptions["source"],
+                        "throughput_confidence": assumptions["confidence"],
+                        "performance_status": "unmeasured",
                         "utilization": utilization,
                         "overhead": overhead,
                         **metrics

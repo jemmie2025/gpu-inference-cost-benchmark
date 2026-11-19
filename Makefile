@@ -21,5 +21,6 @@ analyze:
 > $(PYTHON) -m src.report
 > $(PYTHON) -m src.model_compatibility
 > $(PYTHON) -m src.model_cost
+> $(PYTHON) -m src.assumption_report
 
-check: validate test analyze
+check: validate analyze test

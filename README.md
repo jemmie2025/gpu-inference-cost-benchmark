@@ -4,109 +4,115 @@
 
 ## Overview
 
-Multi-cloud GPU inference cost modeling and FinOps
-framework for evaluating LLM serving performance,
-GPU capacity, token economics, and deployment efficiency.
-
-## Provider Coverage
-
-AWS, Google Cloud, Lambda Labs, RunPod, Modal, and Replicate.
-
-## Model Portfolio
-
-| Model | Precision | GPU Count |
-|---|---|---:|
-| Qwen3-0.6B | BF16 | 1 |
-| Qwen2.5-7B-Instruct | BF16 | 1 |
-| Llama-3.1-8B-Instruct | AWQ INT4 | 1 |
-| Qwen2.5-32B-Instruct | AWQ INT4 | 1 |
-| Llama-3.3-70B-Instruct | BF16 | 4 |
-
-## Reference Workload
-
-| Component | Configuration |
-|---|---|
-| Inference Engine | vLLM |
-| Context Limit | 4096 tokens |
-| Target Input / Output | 512 / 256 tokens |
-| Concurrency | 1, 8, 32 |
-| GPU Utilization Scenarios | 25–100% |
-| Infrastructure Overhead | 0–20% |
-| Cold-start Scenarios | 0–30 seconds |
-
-## Technical Stack
-
-Python, Docker, Kubernetes, NVIDIA CUDA, vLLM,
-Pytest, Matplotlib, and GitHub Actions.
+A reproducible multi-cloud GPU inference cost model for
+evaluating token economics, GPU memory requirements,
+and infrastructure pricing across AWS, GCP, Lambda,
+RunPod, Modal, and Replicate.
 
 ## Architecture
 
-Configuration → Pricing and Assumptions → Cost Analysis →
-Automated Validation → Deployment Recommendations
+Pricing Sources + Performance Assumptions
+→ GPU Capacity Screening → Cost Modeling
+→ Sensitivity Analysis → Reports
 
-## Capabilities
+## Model Portfolio
 
-- Multi-cloud pricing and billing comparison.
-- Cost per million output tokens.
-- Concurrent inference and streaming latency analysis.
-- GPU telemetry and memory capacity estimation.
-- Quantization and tensor parallelism assessment.
-- Utilization and serverless cold-start sensitivity.
-- Automated testing and CI validation.
+| Model | Precision | Configured GPUs |
+|---|---|---:|
+| Qwen3-0.6B | BF16 | 1 |
+| Qwen2.5-7B | BF16 | 1 |
+| Llama-3.1-8B | AWQ INT4 | 1 |
+| Qwen2.5-32B | AWQ INT4 | 1 |
+| Llama-3.3-70B | BF16 | 4 |
 
-## Validation Summary
+GPU memory fit is estimated, not runtime-verified.
 
-| Metric | Result |
+## Pricing and Performance Assumptions
+
+| Parameter | Assumption |
+|---|---|
+| Pricing snapshot | 2026-11-17 |
+| Currency | USD |
+| Output throughput | 50, 100, 200 tokens/sec |
+| Throughput source | Author-defined synthetic scenarios |
+| Utilization | 25–100% |
+| Infrastructure overhead | 0–20% |
+| Cold-start duration | 0–30 seconds |
+| Empirical latency | Unmeasured |
+
+Throughput assumptions are not hardware-calibrated.
+Cost estimates are conditional on pricing and assumed
+performance, with uncertainty in both inputs.
+
+AWS secondary-source prices remain provisional.
+
+## Coverage
+
+| Metric | Count |
 |---|---:|
-| Cloud Providers | 6 |
-| Pricing Configurations | 12 |
-| LLM Configurations | 5 |
-| GPU Profiles | 5 |
-| Dedicated Cost Scenarios | 288 |
-| Serverless Cost Scenarios | 144 |
-| Model Cost Scenarios | 252 |
-| Total Modeled Cost Scenarios | 684 |
-| Model-GPU Assessments | 25 |
-| Utilization Scenarios | 24 |
-| Automated Tests | 30 passed |
+| Cloud providers | 6 |
+| Pricing configurations | 12 |
+| LLM configurations | 5 |
+| GPU profiles | 5 |
+| Dedicated cost scenarios | 288 |
+| Serverless cost scenarios | 144 |
+| Model-specific cost scenarios | 252 |
+| Total modeled cost scenarios | 684 |
+| GPU memory assessments | 25 |
+| Performance assumption records | 75 |
 
-## Cost Analysis
+## Code Validation
 
-![GPU Cost Analysis](results/utilization-analysis.png)
+41 automated tests passing locally.
 
-## Results
+Tests validate cost calculations, input handling,
+simulated HTTP integration, and metadata traceability.
+They do not establish empirical GPU performance or
+confirm the accuracy of market pricing.
 
-- [Provider Comparison](results/provider-comparison.md)
-- [Dedicated GPU Costs](results/cost-comparison.csv)
-- [Serverless Costs](results/serverless-comparison.csv)
-- [Utilization Analysis](results/utilization-sensitivity.csv)
-- [GPU Compatibility](results/model-compatibility.csv)
-- [Model Cost Comparison](results/model-cost-comparison.csv)
+## Cost Sensitivity
+
+![Modeled GPU Cost Sensitivity](results/utilization-analysis.png)
+
+## Reports
+
+| Report | Output |
+|---|---|
+| Provider comparison | [Markdown](results/provider-comparison.md) |
+| Dedicated costs | [CSV](results/cost-comparison.csv) |
+| Serverless costs | [CSV](results/serverless-comparison.csv) |
+| Utilization sensitivity | [CSV](results/utilization-sensitivity.csv) |
+| GPU memory assessments | [CSV](results/model-compatibility.csv) |
+| Model-specific costs | [CSV](results/model-cost-comparison.csv) |
+| Performance assumptions | [CSV](results/performance-assumptions.csv) |
+
+## Infrastructure
+
+Docker Compose and Kubernetes configurations are
+defined and statically checked but not executed
+on GPU hardware.
+
+See [Reference Deployment](infrastructure/README.md).
 
 ## Reproduce
 
 Run `make install` followed by `make check`.
 
+Report regeneration uses the stored pricing snapshot
+and does not retrieve current market prices.
+
 ## Documentation
 
-- [Architecture](docs/architecture.md)
-- [Methodology](docs/methodology.md)
-- [Pricing Sources](docs/pricing-sources.md)
-- [Model Deployment](docs/model-deployment.md)
-- [Decision Guide](docs/decision-guide.md)
-
-## Validation Evidence
-
-### Automated Validation
-
-![Automated Validation](evidence/screenshots/01-automated-validation.png)
-
-### Provider Cost Comparison
-
-![Provider Comparison](evidence/screenshots/02-provider-cost-comparison.png)
+[Architecture](docs/architecture.md) |
+[Methodology](docs/methodology.md) |
+[Pricing Sources](docs/pricing-sources.md) |
+[Performance Assumptions](docs/performance-assumptions.md) |
+[Model Deployment](docs/model-deployment.md) |
+[Decision Guide](docs/decision-guide.md)
 
 ## Limitations
 
-Cost scenarios and GPU memory assessments are modeled.
-Live GPU performance, runtime compatibility, and
-official AWS regional pricing confirmation remain pending.
+No empirical GPU inference runs were performed.
+Throughput, memory fit, and token costs are modeled.
+Production decisions require refreshed pricing,
+hardware-specific measurements, and runtime validation.

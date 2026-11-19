@@ -28,7 +28,7 @@ and memory utilization limits.
 
 - 25 model-GPU memory assessments.
 - 252 model-specific cost scenarios.
-- 30 passing automated tests.
+- 41 passing automated tests.
 
 ## Limitations
 

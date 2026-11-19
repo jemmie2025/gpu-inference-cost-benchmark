@@ -1,0 +1,26 @@
+{
+  "throughput": {
+    "unit": "output_tokens_per_second",
+    "scenarios": {
+      "low": 50,
+      "reference": 100,
+      "high": 200
+    },
+    "source": "Author-defined synthetic sensitivity assumptions",
+    "measurement_type": "assumed",
+    "confidence": "unverified",
+    "model_gpu_calibrated": false
+  },
+  "latency": {
+    "ttft_ms": null,
+    "inter_token_latency_ms": null,
+    "p95_latency_ms": null,
+    "source": "No empirical GPU measurements collected"
+  },
+  "limitations": [
+    "Throughput scenarios are not hardware-specific predictions.",
+    "Identical throughput assumptions do not imply equal GPU performance.",
+    "Token costs are conditional on assumed throughput and published prices.",
+    "No empirical latency or throughput measurements are available."
+  ]
+}

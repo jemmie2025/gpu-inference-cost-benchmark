@@ -1,3 +1,4 @@
+import json
 import csv
 from pathlib import Path
 
@@ -5,6 +6,10 @@ from src.cost_engine import calculate_cost
 
 
 def main():
+    assumptions = json.loads(
+        Path("configs/workloads/performance-assumptions.json").read_text()
+    )["throughput"]
+
     with open("results/model-compatibility.csv") as f:
         models = list(csv.DictReader(f))
 
@@ -40,7 +45,7 @@ def main():
 
             rate = float(provider["usd_per_hour"])
 
-            for throughput in [50, 100, 200]:
+            for throughput in assumptions['scenarios'].values():
                 for utilization in [0.25, 0.50, 0.75, 1.0]:
 
                     metrics = calculate_cost(
@@ -59,6 +64,9 @@ def main():
                         "gpu_count": required,
                         "billing": provider["billing"],
                         "assumed_throughput": throughput,
+                        "throughput_source": assumptions["source"],
+                        "throughput_confidence": assumptions["confidence"],
+                        "performance_status": "unmeasured",
                         "utilization": utilization,
                         "measurement_type": "modeled",
                         **metrics

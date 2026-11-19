@@ -32,7 +32,7 @@ Generated tokens
 
 ## Validation
 
-- 22 automated tests.
+- 41 automated tests.
 - 288 dedicated GPU cost scenarios.
 - 144 serverless cost scenarios.
 - 24 utilization sensitivity scenarios.

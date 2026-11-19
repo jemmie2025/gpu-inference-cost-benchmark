@@ -1,3 +1,4 @@
+import json
 import csv
 from pathlib import Path
 
@@ -5,6 +6,10 @@ from src.serverless import calculate_serverless_cost
 
 
 def main():
+    assumptions = json.loads(
+        Path("configs/workloads/performance-assumptions.json").read_text()
+    )["throughput"]
+
     results = []
 
     with open("configs/providers/pricing.csv") as f:
@@ -20,7 +25,7 @@ def main():
 
         rate = float(provider["usd_per_hour"])
 
-        for throughput in [50, 100, 200]:
+        for throughput in assumptions['scenarios'].values():
             for cold_start in [0, 5, 15, 30]:
                 for idle in [0, 10, 30]:
 
@@ -36,6 +41,9 @@ def main():
                         **provider,
                         "measurement_type": "modeled",
                         "assumed_throughput": throughput,
+                        "throughput_source": assumptions["source"],
+                        "throughput_confidence": assumptions["confidence"],
+                        "performance_status": "unmeasured",
                         "cold_start_seconds": cold_start,
                         "idle_seconds": idle,
                         **metrics

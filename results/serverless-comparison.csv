@@ -1,145 +1,145 @@
-provider,instance,gpu,gpu_count,region,billing,usd_per_hour,price_status,cost_scope,price_captured_at,price_source_url,measurement_type,assumed_throughput,cold_start_seconds,idle_seconds,generation_seconds,billable_seconds,cost_per_request_usd,cost_per_million_output_tokens
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,0,0,5.12,5.12,0.002688,10.5
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,0,10,5.12,15.120000000000001,0.007938,31.007813
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,0,30,5.12,35.12,0.018438,72.023437
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,5,0,5.12,10.120000000000001,0.005313,20.753906
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,5,10,5.12,20.12,0.010563,41.261719
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,5,30,5.12,40.120000000000005,0.021063,82.277344
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,15,0,5.12,20.12,0.010563,41.261719
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,15,10,5.12,30.12,0.015813,61.769531
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,15,30,5.12,50.120000000000005,0.026313,102.785156
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,30,0,5.12,35.12,0.018438,72.023437
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,30,10,5.12,45.12,0.023688,92.53125
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,30,30,5.12,65.12,0.034188,133.546875
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,0,0,2.56,2.56,0.001344,5.25
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,0,10,2.56,12.56,0.006594,25.757812
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,0,30,2.56,32.56,0.017094,66.773438
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,5,0,2.56,7.5600000000000005,0.003969,15.503906
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,5,10,2.56,17.560000000000002,0.009219,36.011719
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,5,30,2.56,37.56,0.019719,77.027344
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,15,0,2.56,17.56,0.009219,36.011719
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,15,10,2.56,27.56,0.014469,56.519531
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,15,30,2.56,47.56,0.024969,97.535156
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,30,0,2.56,32.56,0.017094,66.773438
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,30,10,2.56,42.56,0.022344,87.28125
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,30,30,2.56,62.56,0.032844,128.296875
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,0,0,1.28,1.28,0.000672,2.625
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,0,10,1.28,11.28,0.005922,23.132812
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,0,30,1.28,31.28,0.016422,64.148438
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,5,0,1.28,6.28,0.003297,12.878906
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,5,10,1.28,16.28,0.008547,33.386719
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,5,30,1.28,36.28,0.019047,74.402344
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,15,0,1.28,16.28,0.008547,33.386719
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,15,10,1.28,26.28,0.013797,53.894531
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,15,30,1.28,46.28,0.024297,94.910156
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,30,0,1.28,31.28,0.016422,64.148438
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,30,10,1.28,41.28,0.021672,84.65625
-RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,30,30,1.28,61.28,0.032172,125.671875
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,0,0,5.12,5.12,0.00277504,10.84
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,0,10,5.12,15.120000000000001,0.00819504,32.011875
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,0,30,5.12,35.12,0.01903504,74.355625
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,5,0,5.12,10.120000000000001,0.00548504,21.425938
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,5,10,5.12,20.12,0.01090504,42.597813
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,5,30,5.12,40.120000000000005,0.02174504,84.941563
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,15,0,5.12,20.12,0.01090504,42.597813
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,15,10,5.12,30.12,0.01632504,63.769688
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,15,30,5.12,50.120000000000005,0.02716504,106.113438
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,30,0,5.12,35.12,0.01903504,74.355625
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,30,10,5.12,45.12,0.02445504,95.5275
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,30,30,5.12,65.12,0.03529504,137.87125
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,0,0,2.56,2.56,0.00138752,5.42
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,0,10,2.56,12.56,0.00680752,26.591875
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,0,30,2.56,32.56,0.01764752,68.935625
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,5,0,2.56,7.5600000000000005,0.00409752,16.005938
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,5,10,2.56,17.560000000000002,0.00951752,37.177813
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,5,30,2.56,37.56,0.02035752,79.521563
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,15,0,2.56,17.56,0.00951752,37.177813
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,15,10,2.56,27.56,0.01493752,58.349688
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,15,30,2.56,47.56,0.02577752,100.693438
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,30,0,2.56,32.56,0.01764752,68.935625
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,30,10,2.56,42.56,0.02306752,90.1075
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,30,30,2.56,62.56,0.03390752,132.45125
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,0,0,1.28,1.28,0.00069376,2.71
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,0,10,1.28,11.28,0.00611376,23.881875
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,0,30,1.28,31.28,0.01695376,66.225625
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,5,0,1.28,6.28,0.00340376,13.295938
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,5,10,1.28,16.28,0.00882376,34.467813
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,5,30,1.28,36.28,0.01966376,76.811563
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,15,0,1.28,16.28,0.00882376,34.467813
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,15,10,1.28,26.28,0.01424376,55.639688
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,15,30,1.28,46.28,0.02508376,97.983438
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,30,0,1.28,31.28,0.01695376,66.225625
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,30,10,1.28,41.28,0.02237376,87.3975
-Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,30,30,1.28,61.28,0.03321376,129.74125
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,0,0,5.12,5.12,0.004992,19.5
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,0,10,5.12,15.120000000000001,0.014742,57.585938
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,0,30,5.12,35.12,0.034242,133.757812
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,5,0,5.12,10.120000000000001,0.009867,38.542969
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,5,10,5.12,20.12,0.019617,76.628906
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,5,30,5.12,40.120000000000005,0.039117,152.800781
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,15,0,5.12,20.12,0.019617,76.628906
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,15,10,5.12,30.12,0.029367,114.714844
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,15,30,5.12,50.120000000000005,0.048867,190.886719
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,30,0,5.12,35.12,0.034242,133.757812
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,30,10,5.12,45.12,0.043992,171.84375
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,30,30,5.12,65.12,0.063492,248.015625
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,0,0,2.56,2.56,0.002496,9.75
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,0,10,2.56,12.56,0.012246,47.835938
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,0,30,2.56,32.56,0.031746,124.007813
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,5,0,2.56,7.5600000000000005,0.007371,28.792969
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,5,10,2.56,17.560000000000002,0.017121,66.878906
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,5,30,2.56,37.56,0.036621,143.050781
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,15,0,2.56,17.56,0.017121,66.878906
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,15,10,2.56,27.56,0.026871,104.964844
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,15,30,2.56,47.56,0.046371,181.136719
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,30,0,2.56,32.56,0.031746,124.007813
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,30,10,2.56,42.56,0.041496,162.09375
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,30,30,2.56,62.56,0.060996,238.265625
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,0,0,1.28,1.28,0.001248,4.875
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,0,10,1.28,11.28,0.010998,42.960938
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,0,30,1.28,31.28,0.030498,119.132812
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,5,0,1.28,6.28,0.006123,23.917969
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,5,10,1.28,16.28,0.015873,62.003906
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,5,30,1.28,36.28,0.035373,138.175781
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,15,0,1.28,16.28,0.015873,62.003906
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,15,10,1.28,26.28,0.025623,100.089844
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,15,30,1.28,46.28,0.045123,176.261719
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,30,0,1.28,31.28,0.030498,119.132812
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,30,10,1.28,41.28,0.040248,157.21875
-Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,30,30,1.28,61.28,0.059748,233.390625
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,0,0,5.12,5.12,0.007808,30.5
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,0,10,5.12,15.120000000000001,0.023058,90.070313
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,0,30,5.12,35.12,0.053558,209.210938
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,5,0,5.12,10.120000000000001,0.015433,60.285156
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,5,10,5.12,20.12,0.030683,119.855469
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,5,30,5.12,40.120000000000005,0.061183,238.996094
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,15,0,5.12,20.12,0.030683,119.855469
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,15,10,5.12,30.12,0.045933,179.425781
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,15,30,5.12,50.120000000000005,0.076433,298.566406
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,30,0,5.12,35.12,0.053558,209.210938
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,30,10,5.12,45.12,0.068808,268.78125
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,30,30,5.12,65.12,0.099308,387.921875
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,0,0,2.56,2.56,0.003904,15.25
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,0,10,2.56,12.56,0.019154,74.820312
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,0,30,2.56,32.56,0.049654,193.960938
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,5,0,2.56,7.5600000000000005,0.011529,45.035156
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,5,10,2.56,17.560000000000002,0.026779,104.605469
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,5,30,2.56,37.56,0.057279,223.746094
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,15,0,2.56,17.56,0.026779,104.605469
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,15,10,2.56,27.56,0.042029,164.175781
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,15,30,2.56,47.56,0.072529,283.316406
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,30,0,2.56,32.56,0.049654,193.960938
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,30,10,2.56,42.56,0.064904,253.53125
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,30,30,2.56,62.56,0.095404,372.671875
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,0,0,1.28,1.28,0.001952,7.625
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,0,10,1.28,11.28,0.017202,67.195312
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,0,30,1.28,31.28,0.047702,186.335938
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,5,0,1.28,6.28,0.009577,37.410156
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,5,10,1.28,16.28,0.024827,96.980469
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,5,30,1.28,36.28,0.055327,216.121094
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,15,0,1.28,16.28,0.024827,96.980469
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,15,10,1.28,26.28,0.040077,156.550781
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,15,30,1.28,46.28,0.070577,275.691406
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,30,0,1.28,31.28,0.047702,186.335938
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,30,10,1.28,41.28,0.062952,245.90625
-Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,30,30,1.28,61.28,0.093452,365.046875
+provider,instance,gpu,gpu_count,region,billing,usd_per_hour,price_status,cost_scope,price_captured_at,price_source_url,measurement_type,assumed_throughput,throughput_source,throughput_confidence,performance_status,cold_start_seconds,idle_seconds,generation_seconds,billable_seconds,cost_per_request_usd,cost_per_million_output_tokens
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,0,5.12,5.12,0.002688,10.5
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,10,5.12,15.120000000000001,0.007938,31.007813
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,30,5.12,35.12,0.018438,72.023437
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,0,5.12,10.120000000000001,0.005313,20.753906
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,10,5.12,20.12,0.010563,41.261719
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,30,5.12,40.120000000000005,0.021063,82.277344
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,0,5.12,20.12,0.010563,41.261719
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,10,5.12,30.12,0.015813,61.769531
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,30,5.12,50.120000000000005,0.026313,102.785156
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,0,5.12,35.12,0.018438,72.023437
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,10,5.12,45.12,0.023688,92.53125
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,30,5.12,65.12,0.034188,133.546875
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,0,2.56,2.56,0.001344,5.25
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,10,2.56,12.56,0.006594,25.757812
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,30,2.56,32.56,0.017094,66.773438
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,0,2.56,7.5600000000000005,0.003969,15.503906
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,10,2.56,17.560000000000002,0.009219,36.011719
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,30,2.56,37.56,0.019719,77.027344
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,0,2.56,17.56,0.009219,36.011719
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,10,2.56,27.56,0.014469,56.519531
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,30,2.56,47.56,0.024969,97.535156
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,0,2.56,32.56,0.017094,66.773438
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,10,2.56,42.56,0.022344,87.28125
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,30,2.56,62.56,0.032844,128.296875
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,0,1.28,1.28,0.000672,2.625
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,10,1.28,11.28,0.005922,23.132812
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,30,1.28,31.28,0.016422,64.148438
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,0,1.28,6.28,0.003297,12.878906
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,10,1.28,16.28,0.008547,33.386719
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,30,1.28,36.28,0.019047,74.402344
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,0,1.28,16.28,0.008547,33.386719
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,10,1.28,26.28,0.013797,53.894531
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,30,1.28,46.28,0.024297,94.910156
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,0,1.28,31.28,0.016422,64.148438
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,10,1.28,41.28,0.021672,84.65625
+RunPod,48GB-PRO,L40S-class,1,unspecified,serverless,1.89,published,worker,2026-11-17,https://www.runpod.io/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,30,1.28,61.28,0.032172,125.671875
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,0,5.12,5.12,0.00277504,10.84
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,10,5.12,15.120000000000001,0.00819504,32.011875
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,30,5.12,35.12,0.01903504,74.355625
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,0,5.12,10.120000000000001,0.00548504,21.425938
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,10,5.12,20.12,0.01090504,42.597813
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,30,5.12,40.120000000000005,0.02174504,84.941563
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,0,5.12,20.12,0.01090504,42.597813
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,10,5.12,30.12,0.01632504,63.769688
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,30,5.12,50.120000000000005,0.02716504,106.113438
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,0,5.12,35.12,0.01903504,74.355625
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,10,5.12,45.12,0.02445504,95.5275
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,30,5.12,65.12,0.03529504,137.87125
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,0,2.56,2.56,0.00138752,5.42
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,10,2.56,12.56,0.00680752,26.591875
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,30,2.56,32.56,0.01764752,68.935625
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,0,2.56,7.5600000000000005,0.00409752,16.005938
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,10,2.56,17.560000000000002,0.00951752,37.177813
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,30,2.56,37.56,0.02035752,79.521563
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,0,2.56,17.56,0.00951752,37.177813
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,10,2.56,27.56,0.01493752,58.349688
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,30,2.56,47.56,0.02577752,100.693438
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,0,2.56,32.56,0.01764752,68.935625
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,10,2.56,42.56,0.02306752,90.1075
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,30,2.56,62.56,0.03390752,132.45125
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,0,1.28,1.28,0.00069376,2.71
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,10,1.28,11.28,0.00611376,23.881875
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,30,1.28,31.28,0.01695376,66.225625
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,0,1.28,6.28,0.00340376,13.295938
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,10,1.28,16.28,0.00882376,34.467813
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,30,1.28,36.28,0.01966376,76.811563
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,0,1.28,16.28,0.00882376,34.467813
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,10,1.28,26.28,0.01424376,55.639688
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,30,1.28,46.28,0.02508376,97.983438
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,0,1.28,31.28,0.01695376,66.225625
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,10,1.28,41.28,0.02237376,87.3975
+Modal,L40S,L40S,1,unspecified,serverless,1.9512,published,gpu_only,2026-11-17,https://modal.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,30,1.28,61.28,0.03321376,129.74125
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,0,5.12,5.12,0.004992,19.5
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,10,5.12,15.120000000000001,0.014742,57.585938
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,30,5.12,35.12,0.034242,133.757812
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,0,5.12,10.120000000000001,0.009867,38.542969
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,10,5.12,20.12,0.019617,76.628906
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,30,5.12,40.120000000000005,0.039117,152.800781
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,0,5.12,20.12,0.019617,76.628906
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,10,5.12,30.12,0.029367,114.714844
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,30,5.12,50.120000000000005,0.048867,190.886719
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,0,5.12,35.12,0.034242,133.757812
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,10,5.12,45.12,0.043992,171.84375
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,30,5.12,65.12,0.063492,248.015625
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,0,2.56,2.56,0.002496,9.75
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,10,2.56,12.56,0.012246,47.835938
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,30,2.56,32.56,0.031746,124.007813
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,0,2.56,7.5600000000000005,0.007371,28.792969
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,10,2.56,17.560000000000002,0.017121,66.878906
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,30,2.56,37.56,0.036621,143.050781
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,0,2.56,17.56,0.017121,66.878906
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,10,2.56,27.56,0.026871,104.964844
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,30,2.56,47.56,0.046371,181.136719
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,0,2.56,32.56,0.031746,124.007813
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,10,2.56,42.56,0.041496,162.09375
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,30,2.56,62.56,0.060996,238.265625
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,0,1.28,1.28,0.001248,4.875
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,10,1.28,11.28,0.010998,42.960938
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,30,1.28,31.28,0.030498,119.132812
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,0,1.28,6.28,0.006123,23.917969
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,10,1.28,16.28,0.015873,62.003906
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,30,1.28,36.28,0.035373,138.175781
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,0,1.28,16.28,0.015873,62.003906
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,10,1.28,26.28,0.025623,100.089844
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,30,1.28,46.28,0.045123,176.261719
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,0,1.28,31.28,0.030498,119.132812
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,10,1.28,41.28,0.040248,157.21875
+Replicate,gpu-l40s,L40S,1,unspecified,serverless,3.51,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,30,1.28,61.28,0.059748,233.390625
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,0,5.12,5.12,0.007808,30.5
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,10,5.12,15.120000000000001,0.023058,90.070313
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,30,5.12,35.12,0.053558,209.210938
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,0,5.12,10.120000000000001,0.015433,60.285156
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,10,5.12,20.12,0.030683,119.855469
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,30,5.12,40.120000000000005,0.061183,238.996094
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,0,5.12,20.12,0.030683,119.855469
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,10,5.12,30.12,0.045933,179.425781
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,30,5.12,50.120000000000005,0.076433,298.566406
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,0,5.12,35.12,0.053558,209.210938
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,10,5.12,45.12,0.068808,268.78125
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,50,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,30,5.12,65.12,0.099308,387.921875
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,0,2.56,2.56,0.003904,15.25
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,10,2.56,12.56,0.019154,74.820312
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,30,2.56,32.56,0.049654,193.960938
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,0,2.56,7.5600000000000005,0.011529,45.035156
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,10,2.56,17.560000000000002,0.026779,104.605469
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,30,2.56,37.56,0.057279,223.746094
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,0,2.56,17.56,0.026779,104.605469
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,10,2.56,27.56,0.042029,164.175781
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,30,2.56,47.56,0.072529,283.316406
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,0,2.56,32.56,0.049654,193.960938
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,10,2.56,42.56,0.064904,253.53125
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,100,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,30,2.56,62.56,0.095404,372.671875
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,0,1.28,1.28,0.001952,7.625
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,10,1.28,11.28,0.017202,67.195312
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,0,30,1.28,31.28,0.047702,186.335938
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,0,1.28,6.28,0.009577,37.410156
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,10,1.28,16.28,0.024827,96.980469
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,5,30,1.28,36.28,0.055327,216.121094
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,0,1.28,16.28,0.024827,96.980469
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,10,1.28,26.28,0.040077,156.550781
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,15,30,1.28,46.28,0.070577,275.691406
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,0,1.28,31.28,0.047702,186.335938
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,10,1.28,41.28,0.062952,245.90625
+Replicate,gpu-h100,H100,1,unspecified,serverless,5.49,published,instance,2026-11-17,https://replicate.com/pricing,modeled,200,Author-defined synthetic sensitivity assumptions,unverified,unmeasured,30,30,1.28,61.28,0.093452,365.046875
