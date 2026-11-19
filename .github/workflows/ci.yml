@@ -1,4 +1,4 @@
-name: Benchmark CI
+name: Cost Model CI
 
 on:
   push:
@@ -43,6 +43,6 @@ jobs:
       - name: Upload analysis artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: benchmark-results-${{ matrix.python-version }}
+          name: cost-model-results-${{ matrix.python-version }}
           path: results/
           retention-days: 14

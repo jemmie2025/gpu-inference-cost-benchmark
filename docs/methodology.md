@@ -1,4 +1,4 @@
-# Benchmark Methodology
+# Cost Modeling Methodology
 
 ## Workload
 
@@ -44,6 +44,6 @@ Generated tokens
 - Exact input token length is not yet enforced.
 - Live GPU execution requires compatible hardware.
 - GPU telemetry is sampled rather than continuous.
-- Streaming latency is measured at chunk level.
+- The optional streaming runner records chunk-level latency; no live GPU measurements were collected.
 - Pending prices and additional billing costs
   require provider-specific verification.

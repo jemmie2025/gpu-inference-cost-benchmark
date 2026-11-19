@@ -1,10 +1,10 @@
-# GPU Inference Cost Benchmark
+# GPU Inference Cost Model
 
-![CI](https://github.com/jemmie2025/gpu-inference-cost-benchmark/actions/workflows/ci.yml/badge.svg)
+[![CI](https://github.com/jemmie2025/gpu-inference-cost-model/actions/workflows/ci.yml/badge.svg)](https://github.com/jemmie2025/gpu-inference-cost-model/actions/workflows/ci.yml)
 
 ## Overview
 
-Multi-cloud GPU inference benchmarking and FinOps
+Multi-cloud GPU inference cost modeling and FinOps
 framework for evaluating LLM serving performance,
 GPU capacity, token economics, and deployment efficiency.
 
@@ -22,7 +22,7 @@ AWS, Google Cloud, Lambda Labs, RunPod, Modal, and Replicate.
 | Qwen2.5-32B-Instruct | AWQ INT4 | 1 |
 | Llama-3.3-70B-Instruct | BF16 | 4 |
 
-## Benchmark Configuration
+## Reference Workload
 
 | Component | Configuration |
 |---|---|
@@ -41,7 +41,7 @@ Pytest, Matplotlib, and GitHub Actions.
 
 ## Architecture
 
-Configuration → Benchmark Execution → Cost Analysis →
+Configuration → Pricing and Assumptions → Cost Analysis →
 Automated Validation → Deployment Recommendations
 
 ## Capabilities

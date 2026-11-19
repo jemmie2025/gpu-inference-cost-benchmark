@@ -6,7 +6,7 @@
 |---|---|
 | Configuration | Models, providers and workloads |
 | Inference Engine | vLLM model serving |
-| Benchmark Runner | Throughput and latency measurement |
+| Measurement Runner | Optional future GPU performance measurement |
 | Pricing Dataset | Provider pricing and billing models |
 | Cost Engine | Token economics and utilization analysis |
 | Validation | Automated tests and CI |
@@ -16,7 +16,7 @@
 
 Configuration
     |
-Benchmark Execution
+Pricing and Throughput Assumptions
     |
 Performance Metrics + Provider Pricing
     |
@@ -28,6 +28,6 @@ Validation and Reporting
 
 - Reproducible inference configurations.
 - Consistent cross-provider workloads.
-- Separation of measured and modeled results.
+- Explicit separation of modeled costs and future empirical measurements.
 - Modular, provider-independent architecture.
 - Cost-aware infrastructure provisioning.
