@@ -25,13 +25,14 @@ def main():
         "Modeled workload: 100 output tokens/sec, "
         "50% utilization, excluding additional overhead.",
         "",
-        "| Provider | GPU | USD/hour | USD/M tokens | Monthly USD |",
-        "|---|---|---:|---:|---:|"
+        "| Provider | GPU | Billing | Price captured | USD/hour | USD/M tokens | Monthly USD |",
+        "|---|---|---|---|---:|---:|---:|"
     ]
 
     for r in selected:
         report.append(
             f'| {r["provider"]} | {r["gpu"]} | '
+            f'{r["billing"]} | {r["price_captured_at"]} | '
             f'{float(r["hourly_cost_usd"]):.2f} | '
             f'{float(r["cost_per_million_output_tokens"]):.2f} | '
             f'{float(r["monthly_cost_usd"]):.2f} |'

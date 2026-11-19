@@ -23,6 +23,9 @@ def main():
     )
 
     fields = [
+        "price_captured_at",
+        "price_source_url",
+        "price_status",
         "provider",
         "instance",
         "gpu",
