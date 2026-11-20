@@ -20,19 +20,20 @@ def main():
     report = [
         "# GPU Cost Comparison",
         "",
-        "## Dedicated GPU Economics",
+        "## Indicative Dedicated GPU Economics",
         "",
         "Modeled workload: 100 output tokens/sec, "
         "50% utilization, excluding additional overhead.",
         "",
-        "| Provider | GPU | Billing | Price captured | USD/hour | USD/M tokens | Monthly USD |",
-        "|---|---|---|---|---:|---:|---:|"
+        "| Provider | GPU | Billing | Region | Regional status | Price captured | USD/hour | USD/M tokens | Monthly USD |",
+        "|---|---|---|---|---|---|---:|---:|---:|"
     ]
 
     for r in selected:
         report.append(
             f'| {r["provider"]} | {r["gpu"]} | '
-            f'{r["billing"]} | {r["price_captured_at"]} | '
+            f'{r["billing"]} | {r["region"]} | '
+            f'{r["regional_price_status"]} | {r["price_captured_at"]} | '
             f'{float(r["hourly_cost_usd"]):.2f} | '
             f'{float(r["cost_per_million_output_tokens"]):.2f} | '
             f'{float(r["monthly_cost_usd"]):.2f} |'
@@ -47,7 +48,9 @@ def main():
         "## Limitations",
         "",
         "- Throughput values are modeled assumptions.",
-        "- Unverified prices are excluded from rankings.",
+        "- Secondary-source prices are excluded from this indicative table.",
+        "- Region-unconfirmed rates are indicative only.",
+        "- Strict US-region winners require regional pricing eligibility.",
         "- Serverless economics are reported separately.",
         "- Live GPU performance remains unverified."
     ])

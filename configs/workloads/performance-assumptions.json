@@ -22,5 +22,33 @@
     "Identical throughput assumptions do not imply equal GPU performance.",
     "Token costs are conditional on assumed throughput and published prices.",
     "No empirical latency or throughput measurements are available."
-  ]
+  ],
+  "infrastructure_overhead": {
+    "unit": "fraction_of_base_hourly_rate",
+    "scenarios": [
+      0.0,
+      0.1,
+      0.2
+    ],
+    "source": "Author-defined sensitivity scenarios",
+    "supporting_source_url": "https://docs.aws.amazon.com/pricing-calculator/latest/userguide/ec2-estimates.html",
+    "rationale": "Model potential additional storage, networking, monitoring and operational costs.",
+    "confidence": "unverified",
+    "provider_calibrated": false
+  },
+  "cold_start": {
+    "unit": "seconds",
+    "scenarios": [
+      0,
+      5,
+      15,
+      30
+    ],
+    "source": "Author-defined sensitivity scenarios",
+    "supporting_source_url": "https://modal.com/docs/examples/trtllm_latency",
+    "rationale": "Model warm requests and progressively longer initialization delays.",
+    "confidence": "unverified",
+    "provider_calibrated": false,
+    "upper_bound_guaranteed": false
+  }
 }

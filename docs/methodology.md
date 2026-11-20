@@ -2,7 +2,7 @@
 
 ## Workload
 
-- Model: Qwen2.5-7B-Instruct
+- Model: Qwen3-8B
 - Engine: vLLM
 - Precision: BF16
 - Target input/output: 512/256 tokens
@@ -32,7 +32,7 @@ Generated tokens
 
 ## Validation
 
-- 41 automated tests.
+- 77 automated tests.
 - 288 dedicated GPU cost scenarios.
 - 144 serverless cost scenarios.
 - 24 utilization sensitivity scenarios.

@@ -6,9 +6,10 @@ from src.serverless import calculate_serverless_cost
 
 
 def main():
-    assumptions = json.loads(
+    config = json.loads(
         Path("configs/workloads/performance-assumptions.json").read_text()
-    )["throughput"]
+    )
+    assumptions = config["throughput"]
 
     results = []
 
@@ -26,7 +27,7 @@ def main():
         rate = float(provider["usd_per_hour"])
 
         for throughput in assumptions['scenarios'].values():
-            for cold_start in [0, 5, 15, 30]:
+            for cold_start in config["cold_start"]["scenarios"]:
                 for idle in [0, 10, 30]:
 
                     metrics = calculate_serverless_cost(
@@ -45,6 +46,8 @@ def main():
                         "throughput_confidence": assumptions["confidence"],
                         "performance_status": "unmeasured",
                         "cold_start_seconds": cold_start,
+                        "cold_start_source": config["cold_start"]["source"],
+                        "cold_start_source_url": config["cold_start"]["supporting_source_url"],
                         "idle_seconds": idle,
                         **metrics
                     })

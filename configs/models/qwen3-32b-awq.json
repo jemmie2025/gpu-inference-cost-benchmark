@@ -1,6 +1,6 @@
 {
-  "model_id": "Qwen/Qwen2.5-32B-Instruct-AWQ",
-  "parameters_billions": 32.5,
+  "model_id": "Qwen/Qwen3-32B-AWQ",
+  "parameters_billions": 32.8,
   "engine": "vllm",
   "dtype": "float16",
   "weight_precision_bits": 4,
@@ -9,6 +9,6 @@
   "max_model_len": 4096,
   "gpu_memory_utilization": 0.9,
   "trust_remote_code": false,
-  "source": "https://huggingface.co/Qwen/Qwen2.5-32B-Instruct-AWQ",
+  "source": "https://huggingface.co/Qwen/Qwen3-32B-AWQ",
   "runtime_validation": "pending"
 }

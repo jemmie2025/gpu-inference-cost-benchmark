@@ -4,144 +4,187 @@
 
 ## Overview
 
-A reproducible multi-cloud GPU inference cost model
-for infrastructure pricing, token economics, GPU memory
-sizing, and deployment planning.
+A reproducible multi-cloud GPU inference cost model for
+capacity planning, pricing analysis and cost per million
+output tokens across AWS, GCP, Lambda, RunPod, Modal
+and Replicate.
 
-Providers: AWS, GCP, Lambda, RunPod, Modal, and Replicate.
-
-No empirical GPU inference runs were performed.
+The project evaluates modeled costs, not measured GPU
+inference performance.
 
 ## Architecture
 
-Pricing & Assumptions → GPU Memory Screening →
-Cost Modeling → Sensitivity Analysis → Reports
+Model Configuration → Memory Assessment → Pricing Normalization
+→ Cost Analysis → Workload Recommendations → Validation
 
 ## Model Portfolio
 
 | Model | Precision | Configured GPUs |
 |---|---|---:|
 | Qwen3-0.6B | BF16 | 1 |
-| Qwen2.5-7B-Instruct | BF16 | 1 |
+| Qwen3-8B | BF16 | 1 |
 | Llama-3.1-8B-Instruct | AWQ INT4 | 1 |
-| Qwen2.5-32B-Instruct | AWQ INT4 | 1 |
+| Qwen3-32B-AWQ | INT4 | 1 |
 | Llama-3.3-70B-Instruct | BF16 | 4 |
 
-Memory fit is estimated, not runtime-verified.
+Qwen2.5 configurations have been removed.
+Memory compatibility is estimated, not runtime-verified.
 
-## Pricing and Assumptions
+## Deployment Configuration
 
-| Parameter | Value |
+vLLM image: `vllm/vllm-openai:v0.33.0`
+
+The explicit version is configured consistently in
+Docker Compose and Kubernetes. Deployment files are
+statically validated; live GPU execution has not occurred.
+
+## Pricing Methodology
+
+The model evaluates dedicated, Spot and serverless
+pricing separately using historical USD rates.
+
+Dedicated inference cost:
+
+`USD/M tokens = hourly cost × 1,000,000 /
+(assumed tokens/sec × utilization × 3600)`
+
+Prices retain their capture dates, source URLs, billing
+scope, geographic metadata and verification status.
+
+### Regional Normalization
+
+Target market: United States.
+
+| Pricing classification | Configurations |
+|---|---:|
+| Strict regional eligibility | 2 |
+| Indicative only | 8 |
+| Excluded from comparison | 2 |
+
+Strict regional eligibility requires documented regional
+applicability and compatible billing scope.
+
+The recommendation engine consumes normalized pricing,
+prioritizes strictly eligible regional rates and excludes
+incomplete billing scopes.
+
+These classifications reflect the project's validation
+policy, not independently verified current market quotes
+for every provider.
+
+## Performance Assumptions
+
+| Input | Modeled scenarios |
 |---|---|
-| Pricing snapshot | 2026-11-17 |
-| Currency | USD |
-| Output throughput | 50, 100, 200 tokens/sec |
-| Throughput source | Author-defined synthetic assumptions |
-| Workload utilization | 25–100% |
-| Infrastructure overhead | 0–20% |
-| Cold-start duration | 0–30 seconds |
+| Throughput | 50, 100, 200 output tokens/sec |
+| Utilization | 25%, 50%, 75%, 100% |
+| Infrastructure overhead | 0%, 10%, 20% |
+| Cold start | 0, 5, 15, 30 seconds |
 | Empirical latency | Unmeasured |
 
-Throughput assumptions are not vendor-reported,
-hardware-calibrated, or empirically measured.
+Overhead and cold-start values are author-defined
+sensitivity scenarios, not provider-published guarantees.
 
-Pricing-derived CSVs include capture dates, source URLs,
-and verification status. AWS secondary-source rates
-remain provisional.
+Their rationale, supporting references and limitations
+are documented in
+[Performance Assumptions](docs/performance-assumptions.md).
 
-## Cost Methodology
+## Workload Recommendations
 
-USD/M output tokens = Effective hourly cost × 1,000,000 /
-(Assumed throughput × Utilization × 3600)
+The following are conditional model outputs, not
+empirically benchmarked performance rankings.
 
-Serverless scenarios incorporate assumed generation time,
-cold starts, and billable idle duration.
+Dedicated reference: 100 assumed output tokens/sec,
+75% utilization and 0% additional overhead.
 
-Pricing and performance uncertainty propagate into
-the resulting cost estimates.
+| Use case | Provider | Model | USD/M output tokens |
+|---|---|---|---:|
+| Lightweight routing | GCP | Qwen3-0.6B | $3.71 |
+| General-purpose inference | RunPod* | Qwen3-8B | $4.04 |
+| Lightweight Spot batch | GCP | Qwen3-0.6B | $2.22 |
+| Memory-efficient 8B | GCP | Llama-3.1-8B AWQ | $3.71 |
+| Quantized 32B inference | RunPod* | Qwen3-32B-AWQ | $4.04 |
+| Intermittent serverless | Replicate* | Qwen3-8B | $28.79 |
+| Multi-GPU 70B | No eligible configuration | Llama-3.3-70B | N/A |
 
-## Coverage
+*Indicative pricing; regional verification or deployment
+validation remains outstanding.
 
-| Metric | Count |
+The serverless scenario assumes 256 output tokens,
+100 tokens/sec, a five-second cold start and zero idle
+seconds. Its model deployment remains unverified.
+
+See [Detailed Recommendations](results/recommendations.md).
+
+## Analytical Coverage
+
+| Metric | Result |
 |---|---:|
-| Cloud providers | 6 |
+| Providers | 6 |
 | Pricing configurations | 12 |
-| LLM configurations | 5 |
-| GPU profiles | 5 |
 | Dedicated cost scenarios | 288 |
 | Serverless cost scenarios | 144 |
-| Model-specific cost scenarios | 252 |
-| Total modeled cost scenarios | 684 |
-| Utilization sensitivity scenarios | 24 |
-| GPU memory assessments | 25 |
+| Model-specific cost scenarios | 216 |
+| Total modeled cost scenarios | 648 |
+| Utilization scenarios | 24 |
+| Model-GPU memory assessments | 25 |
 | Performance assumption records | 75 |
+| Workload recommendations | 7 |
 
-Scenario counts represent analytical coverage,
-not empirical validation.
+Scenario coverage is not empirical validation.
 
-## Code Validation
+## Software Validation
 
-**41 automated tests passed locally.**
+77 automated tests passed locally, covering cost
+calculations, pricing provenance, regional normalization,
+recommendation eligibility, deployment configuration,
+model sizing and assumption traceability.
 
-Tests cover cost calculations, input handling,
-simulated HTTP integration, memory estimation,
-pricing provenance, and assumption traceability.
-
-They validate software behavior within tested cases,
-not the accuracy of market prices or GPU performance.
-
-## Cost Sensitivity
-
-![Modeled GPU Cost Sensitivity](results/utilization-analysis.png)
+GitHub Actions validates the code on Python 3.10
+and 3.12. Results for this revision require a new
+successful workflow run.
 
 ## Reports
 
-| Analysis | Output |
-|---|---|
-| Provider comparison | [Markdown](results/provider-comparison.md) |
-| Pricing dataset | [CSV](configs/providers/pricing.csv) |
-| Dedicated costs | [CSV](results/cost-comparison.csv) |
-| Serverless costs | [CSV](results/serverless-comparison.csv) |
-| Model-specific costs | [CSV](results/model-cost-comparison.csv) |
-| Utilization sensitivity | [CSV](results/utilization-sensitivity.csv) |
-| GPU memory assessments | [CSV](results/model-compatibility.csv) |
-| Performance assumptions | [CSV](results/performance-assumptions.csv) |
-
-## Infrastructure
-
-Docker Compose and Kubernetes configurations are
-defined and statically checked, but not executed on GPUs.
-
-The vLLM measurement runner supports future empirical
-validation. See [Infrastructure](infrastructure/README.md).
+- [Provider Comparison](results/provider-comparison.md)
+- [Normalized Pricing](results/normalized-pricing.csv)
+- [Dedicated Costs](results/cost-comparison.csv)
+- [Serverless Costs](results/serverless-comparison.csv)
+- [Model-Specific Costs](results/model-cost-comparison.csv)
+- [Recommendations](results/recommendations.md)
+- [GPU Memory Estimates](results/model-compatibility.csv)
+- [Performance Assumptions](results/performance-assumptions.csv)
 
 ## Reproduce
 
 Run `make install` followed by `make check`.
 
-No GPU resources are required for report generation.
-Regeneration does not refresh historical pricing.
+Report generation does not require paid GPU resources.
+Historical prices are not automatically refreshed.
 
 ## Documentation
 
-[Architecture](docs/architecture.md) |
-[Methodology](docs/methodology.md) |
-[Pricing Sources](docs/pricing-sources.md) |
-[Performance Assumptions](docs/performance-assumptions.md) |
-[Model Deployment](docs/model-deployment.md) |
-[Decision Guide](docs/decision-guide.md)
+- [Architecture](docs/architecture.md)
+- [Methodology](docs/methodology.md)
+- [Pricing Sources](docs/pricing-sources.md)
+- [Performance Assumptions](docs/performance-assumptions.md)
+- [Deployment Guide](docs/model-deployment.md)
+- [Decision Guide](docs/decision-guide.md)
+- [Infrastructure](infrastructure/README.md)
 
 ## Validation Evidence
 
-![Code Validation](evidence/screenshots/01-cost-model-validation.png)
+![Reviewer Corrections Validation](evidence/screenshots/01-cost-model-review-validation.png)
 
 ## Limitations
 
-- No measured GPU throughput or latency.
-- Memory fit and token costs are modeled estimates.
-- Provider pricing requires periodic revalidation.
-- Serverless billing is not fully provider-calibrated.
-- The 70B model is excluded from single-GPU cost scenarios.
+- No empirical GPU throughput, latency or model-quality tests.
+- vLLM GPU runtime compatibility remains unverified.
+- Regional quotes remain incomplete across providers.
+- Historical prices require refreshing before procurement.
+- Serverless billing and deployment compatibility remain
+  provider-dependent.
+- Multi-GPU 70B serving requires separate pricing and testing.
 
-Results support preliminary capacity planning and
-cost analysis, not production cost guarantees.
+Results are intended for preliminary FinOps planning and
+sensitivity analysis, not production cost guarantees.

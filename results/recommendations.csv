@@ -1,0 +1,8 @@
+use_case,provider,model,gpu,billing,region,cost_per_million_output_tokens,status
+Lightweight classification and routing,GCP,Qwen/Qwen3-0.6B,L4,on-demand,us-central1,3.705246,US-regional modeled winner
+Continuous general-purpose inference,RunPod,Qwen/Qwen3-8B,L40S,on-demand,unspecified,4.037037,Indicative; regional quote required
+Lightweight interruption-tolerant batch inference,GCP,Qwen/Qwen3-0.6B,L4,spot,us-central1,2.217215,US-regional modeled winner
+Memory-efficient 8B inference,GCP,hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4,L4,on-demand,us-central1,3.705246,US-regional modeled winner
+Quantized large-model inference,RunPod,Qwen/Qwen3-32B-AWQ,L40S,on-demand,unspecified,4.037037,Indicative; regional quote required
+Intermittent serverless inference,Replicate,Qwen/Qwen3-8B,L40S,serverless,unspecified,28.792969,Indicative hardware-rate estimate; model deployment unverified
+70B multi-GPU inference,No eligible priced configuration,meta-llama/Llama-3.3-70B-Instruct,4 x A100 80GB or H100 80GB,on-demand,Pending,N/A,Multi-GPU quotation and runtime validation required

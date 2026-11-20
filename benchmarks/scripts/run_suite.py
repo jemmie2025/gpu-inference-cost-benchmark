@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--url", default="http://localhost:8000")
 parser.add_argument(
     "--model-config",
-    default="configs/models/qwen-7b.json"
+    default="configs/models/qwen-8b.json"
 )
 args = parser.parse_args()
 

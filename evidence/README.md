@@ -1,14 +1,7 @@
 # Validation Evidence
 
-## Automated Validation
+The screenshot documents local validation of the reviewer corrections, including 77 passing tests, regional pricing normalization and workload recommendations.
 
-Successful execution of the benchmark validation
-pipeline with 30 passing tests.
+![Reviewer Corrections Validation](screenshots/01-cost-model-review-validation.png)
 
-![Automated Validation](screenshots/01-automated-validation.png)
-
-## GPU Cost Analysis
-
-Multi-cloud GPU cost comparison and utilization analysis.
-
-![GPU Cost Comparison](screenshots/02-provider-cost-comparison.png)
+GPU runtime measurements and complete regional price verification remain outstanding.

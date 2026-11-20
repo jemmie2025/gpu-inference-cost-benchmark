@@ -44,33 +44,33 @@ Qwen/Qwen3-0.6B,NVIDIA A100 80GB,1,pass,high,200,Author-defined synthetic sensit
 Qwen/Qwen3-0.6B,NVIDIA H100,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
 Qwen/Qwen3-0.6B,NVIDIA H100,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
 Qwen/Qwen3-0.6B,NVIDIA H100,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA L4,1,fail,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA L4,1,fail,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA L4,1,fail,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA L40S,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA L40S,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA L40S,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA A100,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA A100,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA A100,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA A100 80GB,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA A100 80GB,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA A100 80GB,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA H100,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA H100,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,NVIDIA H100,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA L4,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA L4,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA L4,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA L40S,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA L40S,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA L40S,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA A100,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA A100,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA A100,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA A100 80GB,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA A100 80GB,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA A100 80GB,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA H100,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA H100,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
-Qwen/Qwen2.5-7B-Instruct,NVIDIA H100,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA L4,1,fail,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA L4,1,fail,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA L4,1,fail,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA L40S,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA L40S,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA L40S,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA A100,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA A100,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA A100,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA A100 80GB,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA A100 80GB,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA A100 80GB,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA H100,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA H100,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-8B,NVIDIA H100,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA L4,1,fail,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA L4,1,fail,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA L4,1,fail,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA L40S,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA L40S,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA L40S,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA A100,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA A100,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA A100,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA A100 80GB,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA A100 80GB,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA A100 80GB,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA H100,1,pass,low,50,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA H100,1,pass,reference,100,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending
+Qwen/Qwen3-32B-AWQ,NVIDIA H100,1,pass,high,200,Author-defined synthetic sensitivity assumptions,unverified,False,unmeasured,pending

@@ -14,13 +14,13 @@ Qwen/Qwen3-0.6B,0.6,16,none,NVIDIA L40S,48,1,1.118,5.341,pass,estimated,pending
 Qwen/Qwen3-0.6B,0.6,16,none,NVIDIA A100,40,1,1.118,5.341,pass,estimated,pending
 Qwen/Qwen3-0.6B,0.6,16,none,NVIDIA A100 80GB,80,1,1.118,5.341,pass,estimated,pending
 Qwen/Qwen3-0.6B,0.6,16,none,NVIDIA H100,80,1,1.118,5.341,pass,estimated,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,32.5,4,awq,NVIDIA L4,24,1,15.134,22.161,fail,estimated,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,32.5,4,awq,NVIDIA L40S,48,1,15.134,22.161,pass,estimated,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,32.5,4,awq,NVIDIA A100,40,1,15.134,22.161,pass,estimated,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,32.5,4,awq,NVIDIA A100 80GB,80,1,15.134,22.161,pass,estimated,pending
-Qwen/Qwen2.5-32B-Instruct-AWQ,32.5,4,awq,NVIDIA H100,80,1,15.134,22.161,pass,estimated,pending
-Qwen/Qwen2.5-7B-Instruct,7.61,16,none,NVIDIA L4,24,1,14.175,21.01,pass,estimated,pending
-Qwen/Qwen2.5-7B-Instruct,7.61,16,none,NVIDIA L40S,48,1,14.175,21.01,pass,estimated,pending
-Qwen/Qwen2.5-7B-Instruct,7.61,16,none,NVIDIA A100,40,1,14.175,21.01,pass,estimated,pending
-Qwen/Qwen2.5-7B-Instruct,7.61,16,none,NVIDIA A100 80GB,80,1,14.175,21.01,pass,estimated,pending
-Qwen/Qwen2.5-7B-Instruct,7.61,16,none,NVIDIA H100,80,1,14.175,21.01,pass,estimated,pending
+Qwen/Qwen3-8B,8.2,16,none,NVIDIA L4,24,1,15.274,22.328,fail,estimated,pending
+Qwen/Qwen3-8B,8.2,16,none,NVIDIA L40S,48,1,15.274,22.328,pass,estimated,pending
+Qwen/Qwen3-8B,8.2,16,none,NVIDIA A100,40,1,15.274,22.328,pass,estimated,pending
+Qwen/Qwen3-8B,8.2,16,none,NVIDIA A100 80GB,80,1,15.274,22.328,pass,estimated,pending
+Qwen/Qwen3-8B,8.2,16,none,NVIDIA H100,80,1,15.274,22.328,pass,estimated,pending
+Qwen/Qwen3-32B-AWQ,32.8,4,awq,NVIDIA L4,24,1,15.274,22.328,fail,estimated,pending
+Qwen/Qwen3-32B-AWQ,32.8,4,awq,NVIDIA L40S,48,1,15.274,22.328,pass,estimated,pending
+Qwen/Qwen3-32B-AWQ,32.8,4,awq,NVIDIA A100,40,1,15.274,22.328,pass,estimated,pending
+Qwen/Qwen3-32B-AWQ,32.8,4,awq,NVIDIA A100 80GB,80,1,15.274,22.328,pass,estimated,pending
+Qwen/Qwen3-32B-AWQ,32.8,4,awq,NVIDIA H100,80,1,15.274,22.328,pass,estimated,pending

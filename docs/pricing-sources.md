@@ -1,38 +1,57 @@
+# Pricing Sources and Regional Consistency
 
-## Pricing Revision - 2026-11-17
+## Comparison Policy
 
-- GCP Iowa on-demand: $1.000416348/hour.
-- GCP Iowa Spot: $0.598648/hour.
-- RunPod 48GB PRO serverless: $1.89/hour.
-- GCP source:
-  https://cloud.google.com/products/compute/pricing/accelerator-optimized
-- AWS regional rates remain provisional.
-- Spot rates are subject to market changes.
+The target market is the United States, with USD billing.
 
-## Pricing Traceability
+The historical pricing snapshot is dated 2026-11-17.
+No live price refresh was performed.
 
-Every pricing-derived CSV includes:
+Provider regions, billing scopes and regional verification
+status are explicitly retained in pricing-derived reports.
 
-- price_captured_at: historical pricing snapshot date.
-- price_source_url: reference pricing source.
-- price_status: pricing verification classification.
+## Provider Provenance
 
-Prices are historical inputs, not real-time quotations.
-Refresh and verify rates before deployment decisions.
+| Provider | Pricing geography | Regional status |
+|---|---|---|
+| AWS | us-east-1 | Secondary source; provisional |
+| GCP | us-central1 | Published regional rate |
+| Lambda | Unspecified | Regional quote required |
+| RunPod | Unspecified | Regional quote required |
+| Modal | Unspecified | Regional adjustment required |
+| Replicate | Unspecified | Regional quote required |
 
-AWS secondary-source prices remain provisional.
-Regenerating reports does not refresh provider pricing.
+## Official References
 
-## Pricing Traceability
+- [AWS EC2](https://aws.amazon.com/ec2/pricing/)
+- [GCP Accelerator Pricing](https://cloud.google.com/products/compute/pricing/accelerator-optimized)
+- [GCP Spot Pricing](https://cloud.google.com/spot-vms/pricing)
+- [Lambda Pricing](https://lambda.com/pricing)
+- [RunPod Pricing](https://www.runpod.io/pricing)
+- [Modal Pricing](https://modal.com/pricing)
+- [Replicate Pricing](https://replicate.com/pricing)
 
-Every pricing-derived CSV includes:
+## Ranking Policy
 
-- price_captured_at: historical pricing snapshot date.
-- price_source_url: reference pricing source.
-- price_status: pricing verification classification.
+Strict US-market rankings require a published price
+associated with an identified US region.
 
-Prices are historical inputs, not real-time quotations.
-Refresh and verify rates before deployment decisions.
+Advertised rates without confirmed regional applicability
+remain indicative scenarios and are ineligible for
+strict regional rankings.
 
-AWS secondary-source prices remain provisional.
-Regenerating reports does not refresh provider pricing.
+Modal regional placement can incur price multipliers.
+Its stored GPU-only base rate excludes additional
+CPU and memory charges.
+
+Spot pricing is variable and carries interruption risk.
+
+## Limitations
+
+The US target market does not establish identical
+physical regions, availability or network latency.
+
+Regional quotes remain necessary for providers
+without confirmed regional prices.
+
+Historical rates must be refreshed before procurement.

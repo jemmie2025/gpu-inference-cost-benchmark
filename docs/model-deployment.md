@@ -5,9 +5,9 @@
 | Model | Precision | GPU Count |
 |---|---|---:|
 | Qwen3-0.6B | BF16 | 1 |
-| Qwen2.5-7B | BF16 | 1 |
+| Qwen3-8B | BF16 | 1 |
 | Llama-3.1-8B | AWQ INT4 | 1 |
-| Qwen2.5-32B | AWQ INT4 | 1 |
+| Qwen3-32B | AWQ INT4 | 1 |
 | Llama-3.3-70B | BF16 | 4 |
 
 ## Capacity Planning
@@ -27,8 +27,8 @@ and memory utilization limits.
 ## Results
 
 - 25 model-GPU memory assessments.
-- 252 model-specific cost scenarios.
-- 41 passing automated tests.
+- 216 model-specific cost scenarios.
+- 77 passing automated tests.
 
 ## Limitations
 

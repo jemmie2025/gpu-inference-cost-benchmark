@@ -22,5 +22,7 @@ analyze:
 > $(PYTHON) -m src.model_compatibility
 > $(PYTHON) -m src.model_cost
 > $(PYTHON) -m src.assumption_report
+> $(PYTHON) -m src.pricing_normalization
+> $(PYTHON) -m src.recommendations
 
 check: validate analyze test
